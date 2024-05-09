@@ -1,9 +1,21 @@
 # Superheroes API
 
 ## Content
-Rest API created with SpringBoot just for study purpose
+Rest API created with SpringBoot and Database MySQL
 
-### Reference Documentation
+## How to Run Locally
+Just run the following commands:
+
+```bash
+docker compose up -d
+
+mvn clean install
+mvn spring-boot:run
+```
+
+All routes are in [request.http](./requests.http) file.
+
+### Reference Documentation (SpringBoot)
 For further reference, please consider the following sections:
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)

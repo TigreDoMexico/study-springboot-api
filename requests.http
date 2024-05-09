@@ -1,0 +1,27 @@
+###
+GET http://127.0.0.1:8080/get
+
+###
+@id = 1
+GET http://127.0.0.1:8080/get/{{id}}
+
+###
+POST http://127.0.0.1:8080/post
+Content-Type: application/json
+
+{
+  "id": 0,
+  "name": "Batman"
+}
+
+###
+PUT http://127.0.0.1:8080/put/{{id}}
+Content-Type: application/json
+
+{
+  "id": 0,
+  "name": "Future Batman"
+}
+
+###
+DELETE http://localhost:8080/delete/{{id}}
